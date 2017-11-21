@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Jatekos
+comment1.params=k\ nev
+comment1.target=Jatekos(Kocka,\ java.lang.String)
+comment2.params=dobasokszama
+comment2.target=int\ jatek(int)
+numComments=3
