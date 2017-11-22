@@ -9,7 +9,7 @@ public class Kocka{
         
         Random random = new Random();
         
-        int x = random.nextInt(6-1 + 1) + 1;
+        int x = random.nextInt(6)+1;
         return x;
     }
 }

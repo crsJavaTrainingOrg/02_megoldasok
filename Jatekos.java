@@ -11,7 +11,7 @@ public class Jatekos{
 
     public int jatek(int dobasokszama){
         int osszeg = 0;
-        int i = 0;
+        int i = 1;
         while(i <=dobasokszama){
             osszeg = osszeg + kocka.dobas();
             i++;

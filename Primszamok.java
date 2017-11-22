@@ -2,23 +2,29 @@ public class Primszamok{
 
     public void kiiras(){
 
-        for (int i=2; i <=100; i++){
+        int primekszama = 0;
+        int szam = 2;
+
+        while(primekszama<=100){
             boolean primszam = true;
-            for(int j = 2; j<i; j++){
-                
-                if(i % j == 0){
-                    
+            for (int i=2; i<=Math.sqrt(szam); i++){
+
+                if( szam % i == 0){
                     primszam = false;
                     break;
-                    
+
                 }
             }
+
             if(primszam){
-                
-                System.out.println(i + " ");
-                
+                primekszama++;   
+                System.out.println(szam + " ");
+
             }
+            szam++;
+
         }
+
     }
 }
 
